@@ -1,0 +1,26 @@
+nome = input('olá qual o seu nome?')
+print(f'Prazer em te conhecer!{nome}')
+print('Vamos brincar com tipos primitivos no python!')
+
+n=input('Digite uma variável para descobrirmos sua classe:')
+print (f'Qual tipo primitivo a variável "{n}" Pertence ?',(type(n)))
+print('Bacana! agora vamos ver se a variável é numérica',n.isnumeric(),'!')
+print(f'A variável é alfanúmerica? {n.isalnum()}!')
+print(f'A variável é alfabética? {n.isalpha()}!')
+print(f'Agora veremos se a variável possui letras maiúsculas ? {n.isupper()}!')
+print(f'E se a variável possui letras minúsculas ? {n.islower()}!')
+print(f'A variável possui todos os números decimais ? {n.isdecimal()}!')
+print(f'A variável possui caracteres Ascii ? {n.isascii()}!')
+print(f'A variável possui números entre 0 e 9 ? {n.isdigit()}!')
+print(f'O identificador é valido ? {n.isidentifier()}!')
+#Uma sequência é considerada um identificador válido se contiver
+#apenas letras alfanuméricas (az) e (0-9) ou sublinhados (_).
+#Um identificador válido não pode começar com um número ou conter espaços.
+print(f'O método contém apenas espaços em branco ? {n.isspace()}!')
+print(f'Todos os carecteres da string são imprimíveis ? {n.isprintable()}!')
+print('"Os caracteres que ocupam espaço de impressão na tela são conhecidos como caracteres imprimíveis."')
+print('"por exemplo:letras e símbolos,dígitos, pontuação, espaço em branco"')
+#Retorna True se a sequência estiver vazia ou sua composição for imprimível
+print(f'A sequência possui títulos ? {n.istitle()}!')
+print('"As palavras dos títulos devem ser capitalizadas."')
+print('Enfim! Aprender é fantástico!')
